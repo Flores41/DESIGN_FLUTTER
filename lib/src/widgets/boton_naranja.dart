@@ -23,7 +23,7 @@ class BotonNaranja extends StatelessWidget {
       width: sizeWidth * width,
       decoration: BoxDecoration(
         color: Color(color),
-        borderRadius: BorderRadius.circular(100),
+        borderRadius: BorderRadius.circular(20),
       ),
       child: Center(
         child: Text(

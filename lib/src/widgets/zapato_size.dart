@@ -31,13 +31,23 @@ class ZapatoSizePreview extends StatelessWidget {
             final maxHeight = constraints.maxHeight;
 
             return Container(
+          
               constraints: BoxConstraints(
                 maxWidth: maxWidth,
                 maxHeight: maxHeight * 0.60,
+                
               ),
               decoration: BoxDecoration(
                 color: color,
                 borderRadius: BorderRadius.circular(radius),
+                boxShadow: const [
+                  BoxShadow(
+                    color: Color(0xffEAA14E),
+                    blurRadius: 10,
+                    offset: Offset(0, 5),
+                  )
+                ],
+               
               ),
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,

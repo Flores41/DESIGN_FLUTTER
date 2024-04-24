@@ -34,7 +34,7 @@ class BotonFlotante extends StatelessWidget {
       height: height * 0.1,
       decoration: BoxDecoration(
         color: colors,
-        borderRadius: BorderRadius.circular(100),
+        borderRadius: BorderRadius.circular(20),
       ),
       child: Padding(
         padding: EdgeInsets.symmetric(

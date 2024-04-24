@@ -3,6 +3,8 @@ import 'package:provider/provider.dart';
 import 'package:ui_01/src/pages/page.dart';
 import 'package:ui_01/src/provider/zapato_provider.dart';
 
+import 'src/config/theme/theme.dart';
+
 void main() {
   runApp(
     ChangeNotifierProvider(
@@ -18,12 +20,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(
-          seedColor: Colors.deepPurple,
-        ),
-        useMaterial3: true,
-      ),
+      theme:  AppTheme.light,
       routes: {
         '/': (BuildContext context) => const HomeScreen(),
         '/descripcion': (BuildContext context) => const ZapatoDescPage(),

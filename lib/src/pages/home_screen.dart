@@ -18,7 +18,7 @@ class HomeScreen extends StatelessWidget {
             padding: const EdgeInsets.symmetric(horizontal: 20),
             child: Column(
               children: [
-                const CustomAppBar(title: 'For You'),
+                const CustomAppBar(title: 'UI Shoes App'),
                 const SizedBox(height: 20),
                 Expanded(
                   child: SingleChildScrollView(
@@ -43,9 +43,7 @@ class HomeScreen extends StatelessWidget {
                           description:
                               'The Nike Air Max 720 goes bigger than ever before with Nikes taller Air unit yet, offering more air underfoot for unimaginable, all-day comfort. Has Air Max gone too far? We hope so.',
                         ),
-                        const SizedBox(
-                          height: 150,
-                        )
+                       
                       ],
                     ),
                   ),
